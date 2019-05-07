@@ -5,7 +5,9 @@
   "description": "Dockerized sails.js boilerplate with node.js v4.0",
   "main": "index.js",
   "scripts": {
-    "start": "sails lift"
+    "start": "sails lift",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Kris Williams <@kris_will>",
   "license": "MIT",
@@ -25,6 +27,8 @@
     "grunt-sync": "~0.2.3",
     "rc": "~1.0.1",
     "sails": "~1.2.1",
-    "sails-disk": "~0.10.7"
-  }
+    "sails-disk": "~0.10.7",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
