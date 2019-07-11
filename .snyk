@@ -6,6 +6,18 @@ patch:
   'npm:lodash:20180130':
     - sails > sort-route-addresses > lodash:
         patched: '2019-05-07T05:31:32.048Z'
+    - sails-disk > machinepack-fs > machine > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
+    - sails-disk > machinepack-fs > machinepack-strings > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
+    - sails-disk > machinepack-fs > machinepack-util > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
+    - sails-disk > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
+    - sails-disk > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
+    - sails-disk > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2019-07-11T07:24:01.905Z'
   SNYK-JS-LODASH-450202:
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-04T00:09:50.171Z'
@@ -37,3 +49,9 @@ patch:
         patched: '2019-07-04T00:09:50.171Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
         patched: '2019-07-04T00:09:50.171Z'
+  'npm:debug:20170905':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2019-07-11T07:24:01.905Z'
+  'npm:ms:20170412':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2019-07-11T07:24:01.905Z'
