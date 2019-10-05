@@ -55,3 +55,8 @@ patch:
   'npm:ms:20170412':
     - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
         patched: '2019-07-11T07:24:01.905Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T00:09:36.959Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T00:09:36.959Z'
