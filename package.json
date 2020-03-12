@@ -25,7 +25,7 @@
     "grunt-contrib-watch": "~1.1.0",
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "~0.6.2",
-    "rc": "~1.0.1",
+    "rc": "~1.1.0",
     "sails": "~1.2.1",
     "sails-disk": "~1.1.2",
     "snyk": "^1.231.0"
